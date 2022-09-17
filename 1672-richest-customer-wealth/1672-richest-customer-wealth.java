@@ -3,12 +3,12 @@ class Solution {
         // person=row;
         //account=col;
         int Max=Integer.MIN_VALUE;
-        for(int person=0;person<accounts.length;person++){
+        for(int[] ints :accounts){
              int wealth=0; 
          
-        for(int account=0; account<accounts[person].length;account++){
+        for(int intss :ints){
           
-            wealth+=accounts[person][account];
+            wealth+=intss;
             
             
         }  
